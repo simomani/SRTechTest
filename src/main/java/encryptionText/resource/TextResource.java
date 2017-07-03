@@ -3,7 +3,7 @@ package encryptionText.resource;
 public class TextResource implements ITextResource {
 
 	private String original;
-	private String encrypted;
+	private String cipher;
 		
 	public String getOriginal() {
 		return original;
@@ -14,10 +14,10 @@ public class TextResource implements ITextResource {
 	}
 	
 	public String getEncrypted() {
-		return encrypted;
+		return cipher;
 	}
 	
-	public void setEncrypted(String encrypted) {
-		this.encrypted = encrypted;
+	public void setEncrypted(String cipher) {
+		this.cipher = cipher;
 	}
 }
