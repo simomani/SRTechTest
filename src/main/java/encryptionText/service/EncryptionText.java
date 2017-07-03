@@ -34,7 +34,7 @@ public class EncryptionText {
 	public ITextResource getEncryptionText(@QueryParam("text") String text){
 
 		textResource.setOriginal(text);
-		textResource.setEncrypted(crypto.encryptText(text));
+		textResource.setCipher(crypto.encryptText(text));
 		letterResource.parseTextEncrypted(text);
 		return textResource;
 	}

@@ -13,11 +13,11 @@ public class TextResource implements ITextResource {
 		this.original = original;
 	}
 	
-	public String getEncrypted() {
+	public String getCipher() {
 		return cipher;
 	}
 	
-	public void setEncrypted(String cipher) {
+	public void setCipher(String cipher) {
 		this.cipher = cipher;
 	}
 }

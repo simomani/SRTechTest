@@ -15,11 +15,11 @@ public interface ITextResource {
 	/**
 	 * @return the encrypted base64 value of the text
 	 */
-	String getEncrypted();
+	String getCipher();
 
 	/**
 	 * @param encrypted Set the encrypted value of text
 	 */
-	void setEncrypted(String encrypted);
+	void setCipher(String cipher);
 
 }
